@@ -1,0 +1,6 @@
+= form_with(model: @article) do |form|
+  = form.label "Title "
+  = form.text_field :title
+  = form.label " Body "
+  = form.text_area :body
+  = form.submit "Ok"

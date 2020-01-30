@@ -1,0 +1,8 @@
+= render "partials/notifications.slim"
+h1
+  = @article.title
+h2
+  = @article.body
+= link_to "Edit", edit_article_path(@article)
+br
+= link_to "Before", root_path
